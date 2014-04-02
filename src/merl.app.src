@@ -1,0 +1,12 @@
+{application, merl,
+ [
+  {description, "Metaprogramming in Erlang"},
+  {vsn, "0.9"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { merl, []}},
+  {env, []}
+ ]}.
